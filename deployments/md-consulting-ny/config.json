@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "plugin": {
+    "name": "MD Consulting NY Form Test",
+    "author": "MD Consulting NY",
+    "description": "Redirects marked MD Consulting NY test form submissions to the operator's test mailbox and keeps them away from clients.",
+    "slug": "md-form-test",
+    "updateUri": "https://github.com/MDConsultingNY/md-consulting-ny-maintenance"
+  },
+  "channel": {
+    "repository": "MDConsultingNY/md-consulting-ny-maintenance",
+    "releasesRoot": "https://github.com/MDConsultingNY/md-consulting-ny-maintenance/releases",
+    "publicKey": "aDOymbJp173ok7U8t9kZ2uM6QeybgGUPDwO3vflRaFo="
+  },
+  "notice": {
+    "recipient": "ops@mdconsultingny.com",
+    "subjectPrefix": "[md-consulting-ny-audit]"
+  },
+  "forms": {
+    "refusalPrefix": "MD Consulting NY test blocked:",
+    "text": "MD Consulting NY Test",
+    "message": "MD Consulting NY test message"
+  },
+  "weeklyCheck": {
+    "enabled": false,
+    "timeZone": "America/New_York"
+  },
+  "audited": ["ff", "ff_pro", "cleantalk", "fluent_smtp"]
+}
