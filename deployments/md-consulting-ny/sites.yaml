@@ -1,9 +1,11 @@
 sites:
   - slug: spinalrehabilitationwellnesscenter
     url: https://www.spinalrehabilitationwellnesscenter.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 8 }
     pages:
       - /
+      - /contact-us/
   - slug: sincerelyskinmedspa
     url: https://sincerelyskinmedspa.com
     form_helper: false
