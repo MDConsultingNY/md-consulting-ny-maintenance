@@ -1,7 +1,7 @@
 sites:
   - slug: spinalrehabilitationwellnesscenter
     url: https://www.spinalrehabilitationwellnesscenter.com
-    form_helper: true
+    form_helper: false
     test_form: { page: /contact-us/, plugin: fluent, id: 8 }
     pages:
       - /
