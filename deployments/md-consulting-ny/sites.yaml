@@ -21,9 +21,11 @@ sites:
       - /
   - slug: 949pediatricdentistry
     url: https://949pediatricdentistry.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 6 }
     pages:
       - /
+      - /contact-us/
   - slug: gillmed
     url: https://www.gillmed.com
     form_helper: false
