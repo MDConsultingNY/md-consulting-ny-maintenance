@@ -8,9 +8,11 @@ sites:
       - /contact-us/
   - slug: sincerelyskinmedspa
     url: https://sincerelyskinmedspa.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 3 }
     pages:
       - /
+      - /contact-us/
   - slug: theethostrainingacademy
     url: https://theethostrainingacademy.com
     form_helper: false
