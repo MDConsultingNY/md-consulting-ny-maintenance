@@ -8,7 +8,7 @@ sites:
       - /contact-us/
   - slug: sincerelyskinmedspa
     url: https://sincerelyskinmedspa.com
-    form_helper: true
+    form_helper: false
     test_form: { page: /contact-us/, plugin: fluent, id: 3 }
     pages:
       - /
