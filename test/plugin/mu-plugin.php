@@ -582,6 +582,14 @@ if ( get_option( 'pirax_harness_ct_late' ) ) {
 }
 
 /*
+ * pirax_harness_ff_payment_callback: a callback other than FF core's payment handler on
+ * fluentform/before_insert_payment_form, so the audit must still report that hook as unaudited.
+ */
+if ( get_option( 'pirax_harness_ff_payment_callback' ) ) {
+	add_action( 'fluentform/before_insert_payment_form', static function () {}, 10, 0 );
+}
+
+/*
  * pirax_harness_render_probe: around the Pirax Form Test settings page callback, record every
  * callback on form-plugin hooks (hook, priority, identity and object) and count option writes, so a
  * test can prove that rendering the compatibility panel changes neither.
