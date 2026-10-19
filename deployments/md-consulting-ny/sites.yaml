@@ -63,9 +63,11 @@ sites:
       - /contact-us/
   - slug: solumaaesthetics
     url: https://solumaaesthetics.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 5 }
     pages:
       - /
+      - /contact-us/
   - slug: jcsignatureaesthetics
     url: https://jcsignatureaesthetics.com
     form_helper: false
