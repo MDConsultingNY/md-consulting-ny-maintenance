@@ -40,9 +40,11 @@ sites:
       - /contact-us/
   - slug: medspastartup
     url: https://medspastartup.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact/, plugin: fluent, id: 1 }
     pages:
       - /
+      - /contact/
   - slug: aestheticnexus
     url: https://aestheticnexus.com
     form_helper: false
