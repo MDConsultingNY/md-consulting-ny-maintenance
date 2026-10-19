@@ -6,18 +6,41 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /about/
+      - /services/
+      - /services/chiropractic/
+      - /blog/
+      - /category/wellness-alternative-health-solutions/
+      - /the-importance-of-an-integrated-approach-to-wellness/
+      - /book-now/
+      - /patient-forms/
+      - /patient-reviews/
   - slug: sincerelyskinmedspa
     url: https://sincerelyskinmedspa.com
     form_helper: false
     pages:
       - /
       - /contact-us/
+      - /about-us/
+      - /our-services/
+      - /botox/
+      - /articles/
+      - /category/uncategorized/
+      - /the-best-laser-hair-removal-process-in-2025-2/
+      - /membership/
+      - /financing/
   - slug: theethostrainingacademy
     url: https://theethostrainingacademy.com
     form_helper: false
     pages:
       - /
       - /contact-us/
+      - /about/
+      - /courses/
+      - /botox-training-for-all-levels/
+      - /blog/
+      - /shadowing/
+      - /private-training/
   - slug: dermmavenmd
     url: https://dermmavenmd.com
     form_helper: true
@@ -25,6 +48,14 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /about/
+      - /services/
+      - /services/botox/
+      - /blog/
+      - /category/botox/
+      - /your-annual-skin-check-is-overdue-what-a-madera-dermatologist-looks-for-after-a-central-valley-summer/
+      - /financing/
+      - /locations/madera-ca/
   - slug: 949pediatricdentistry
     url: https://949pediatricdentistry.com
     form_helper: true
@@ -32,28 +63,60 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /our-doctors/
+      - /services/
+      - /services/pediatric-dental-exams/
+      - /blog/
+      - /before-after/
+      - /locations/new-york-city-ny/
   - slug: gillmed
     url: https://www.gillmed.com
     form_helper: false
     pages:
       - /
       - /contact-us/
+      - /about-us/
+      - /services/
+      - /services/botox/
+      - /blog/
+      - /before-and-after-gallery/
+      - /primary-care/
+      - /locations/lodi-ca/
   - slug: medspastartup
     url: https://medspastartup.com
     form_helper: false
     pages:
       - /
       - /contact/
+      - /about/
+      - /launch/
+      - /blog/
+      - /pricing/
+      - /shop/
   - slug: aestheticnexus
     url: https://aestheticnexus.com
     form_helper: false
     pages:
       - /
+      - /contact-us/
+      - /pricing/
+      - /webinar-calendar/
+      - /case-study/dr-hardik-soni/
+      - /vendor/med-spa-startup/
   - slug: goodvibemedical
     url: https://www.goodvibemedical.com
     form_helper: false
     pages:
       - /
+      - /contact-us/
+      - /our-team/
+      - /services/
+      - /med-spa/botox/
+      - /blog/
+      - /category/skin-rejuvenation/
+      - /does-morpheus8-hurt/
+      - /testimonials/
+      - /locations/chester-nj/
   - slug: dreamspine
     url: https://dreamspine.com
     form_helper: true
@@ -61,6 +124,13 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /about-us/
+      - /treatments/
+      - /treatment/radiofrequency-ablation/
+      - /blog/
+      - /financing/
+      - /book-now/
+      - /conditions/knee-pain/aurora-co/
   - slug: solumaaesthetics
     url: https://solumaaesthetics.com
     form_helper: true
@@ -68,6 +138,15 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /about/
+      - /services/
+      - /services/botox/
+      - /blog/
+      - /category/medical-spa/
+      - /dermal-fillers/benefits-of-dermal-fillers-orlando-fl/
+      - /special-offers/
+      - /vip/
+      - /shop/
   - slug: jcsignatureaesthetics
     url: https://jcsignatureaesthetics.com
     form_helper: true
@@ -75,11 +154,26 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /team/
+      - /services/
+      - /services/botox/
+      - /blog/
+      - /pricing/
+      - /financing/
+      - /reviews/
   - slug: rejuvenationsmedspa
     url: https://www.rejuvenationsmedspa.com
     form_helper: false
     pages:
       - /
+      - /contact-us/
+      - /team/
+      - /services/
+      - /services/botox/
+      - /blog/
+      - /payment-plans/
+      - /membership/
+      - /book-now/
   - slug: laynayoung
     url: https://laynayoung.com
     form_helper: true
@@ -87,6 +181,12 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /team/
+      - /services/
+      - /services/botox/
+      - /blog/
+      - /financing/
+      - /locations/aurora-co/
   - slug: amenitydayspa
     url: https://amenitydayspa.com
     form_helper: true
@@ -94,8 +194,26 @@ sites:
     pages:
       - /
       - /contact-us/
+      - /about/
+      - /services/
+      - /services/botox/
+      - /blog/
+      - /category/skincare/
+      - /summer-skincare-tips-and-tricks-for-beating-the-heat/
+      - /book-a-spa-party/
+      - /memberships/
   - slug: cvva
     url: https://www.cvva.care
     form_helper: false
     pages:
       - /
+      - /contact-us/
+      - /team/
+      - /services/vein-treatments/
+      - /services/varicose-veins-treatment/
+      - /blog/
+      - /category/varicose-veins/
+      - /non-surgical-ideas-for-defining-your-facial-structure-cheek-bones-and-more/
+      - /schedule-now/
+      - /refer/
+      - /patient-resources/
