@@ -70,9 +70,11 @@ sites:
       - /contact-us/
   - slug: jcsignatureaesthetics
     url: https://jcsignatureaesthetics.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 3 }
     pages:
       - /
+      - /contact-us/
   - slug: rejuvenationsmedspa
     url: https://www.rejuvenationsmedspa.com
     form_helper: false
