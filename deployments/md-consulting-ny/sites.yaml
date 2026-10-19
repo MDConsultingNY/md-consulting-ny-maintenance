@@ -15,7 +15,6 @@ sites:
   - slug: theethostrainingacademy
     url: https://theethostrainingacademy.com
     form_helper: false
-    test_form: { page: /contact-us/, plugin: fluent, id: 1 }
     pages:
       - /
       - /contact-us/
