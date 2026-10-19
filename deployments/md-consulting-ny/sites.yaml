@@ -56,9 +56,11 @@ sites:
       - /
   - slug: dreamspine
     url: https://dreamspine.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 3 }
     pages:
       - /
+      - /contact-us/
   - slug: solumaaesthetics
     url: https://solumaaesthetics.com
     form_helper: false
