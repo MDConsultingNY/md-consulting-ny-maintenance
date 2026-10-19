@@ -34,9 +34,11 @@ sites:
       - /contact-us/
   - slug: gillmed
     url: https://www.gillmed.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 6 }
     pages:
       - /
+      - /contact-us/
   - slug: medspastartup
     url: https://medspastartup.com
     form_helper: false
