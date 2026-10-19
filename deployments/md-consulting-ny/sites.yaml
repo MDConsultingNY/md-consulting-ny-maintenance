@@ -20,9 +20,11 @@ sites:
       - /contact-us/
   - slug: dermmavenmd
     url: https://dermmavenmd.com
-    form_helper: false
+    form_helper: true
+    test_form: { page: /contact-us/, plugin: fluent, id: 1 }
     pages:
       - /
+      - /contact-us/
   - slug: 949pediatricdentistry
     url: https://949pediatricdentistry.com
     form_helper: true
