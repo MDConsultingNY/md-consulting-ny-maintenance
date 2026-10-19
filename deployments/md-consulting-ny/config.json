@@ -22,7 +22,7 @@
     "message": "MD Consulting NY test message"
   },
   "weeklyCheck": {
-    "enabled": false,
+    "enabled": true,
     "timeZone": "America/New_York"
   },
   "audited": ["ff", "ff_pro", "cleantalk", "fluent_smtp"]
