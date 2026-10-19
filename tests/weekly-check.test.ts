@@ -173,8 +173,8 @@ describe("weekly gate CLI without node_modules", () => {
   // --no-install: without it Bun would silently auto-install a missing package and hide the dependency.
   const gate = (args: string[], env: Record<string, string>) => cli(dir, ["--no-install", join(dir, "scripts/weekly/gate.ts"), ...args], env);
 
-  test("pirax (the real config) is disabled", async () => {
-    expect(await gate([], { DEPLOYMENT: "pirax" })).toMatchObject({ stdout: "enabled=false\n", code: 0 });
+  test("pirax (the real config) is enabled", async () => {
+    expect(await gate([], { DEPLOYMENT: "pirax" })).toMatchObject({ stdout: "enabled=true\n", code: 0 });
   });
   test("an enabled deployment is enabled", async () => {
     expect(await gate([], { DEPLOYMENT: "enabled" })).toMatchObject({ stdout: "enabled=true\n", code: 0 });
