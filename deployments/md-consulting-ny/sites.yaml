@@ -40,7 +40,7 @@ sites:
       - /contact-us/
   - slug: medspastartup
     url: https://medspastartup.com
-    form_helper: true
+    form_helper: false
     test_form: { page: /contact/, plugin: fluent, id: 1 }
     pages:
       - /
