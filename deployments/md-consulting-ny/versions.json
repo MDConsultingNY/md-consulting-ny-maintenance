@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "helperVersion": "0.3.11",
+  "helperVersion": "0.3.12",
   "audited": {
     "ff": "6.2.17",
     "ff_pro": "6.2.17",
     "cleantalk": "6.91",
-    "fluent_smtp": "2.4.1"
+    "fluent_smtp": "2.4.5"
   }
 }
